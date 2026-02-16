@@ -20,4 +20,15 @@ def display_menu():
 
 
 def add_member(names, ranks, divs, ids):
-    
+    print("\n--- ADD MEMBER ---")
+    new_name = input("What is your name? ")
+    new_rank = input("what is your rank")
+    new_div = input("what is your division")
+    new_id = input("what is your id")
+
+    names.append(new_name)
+    ranks.append(new_rank)
+    divs.append(new_div)
+    ids.append(new_id)
+    print("Member added")
+
